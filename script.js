@@ -12,7 +12,7 @@ function countClick(){
  
  click++
 
-  document.getElementById("counter").innerHTML = "You have pinged " + click + " crew!";
+  document.getElementById("counter").innerHTML = "You have pinged crew " + click + " time(s)!";
    
 }
 
