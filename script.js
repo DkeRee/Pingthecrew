@@ -16,3 +16,12 @@ function countClick(){
    
 }
 
+
+function playDiscord(){
+
+  var sound = document.getElementById("discord-audio")
+  sound.play();
+
+
+}
+

@@ -38,7 +38,7 @@
 
 
 
-<button onmouseover = "this.style.color = 'red'" onmouseout = "this.style.color = 'black'" onclick = "pingCrew();countClick()"> Ping for crew! </button>
+<button onmouseover = "this.style.color = 'red'" onmouseout = "this.style.color = 'black'" onclick = "pingCrew();countClick();playDiscord()"> Ping for crew! </button>
 
 <h2 id = "counter"> You have pinged 0 crew! </h2>
 
@@ -57,6 +57,7 @@
 <li> <strong> I added an Update Log </strong> </li>
 <li> <strong> I added a quick h2 text to describe how the Update Log works </strong> </li>
 <li> <strong> I made it so button flashes red when the mouse hovers over it with a onmouseover and onmouseout command </strong> </li>
+<li> <strong> working on making discord notification sound play when button presses, it probably won't work </strong> </li>
 <h2> <strong> ------------------------------------------------------------- </strong> </h2>
 
 </ul>
@@ -65,6 +66,10 @@
 </center>
 
 
+
+<!--Discord Audio-->
+
+<audio id = "discord-audio" src = "https://www.zedge.net/ringtone/5b6238eb-5f5b-4b86-92a8-9e7de7cc400f"></audio>
 
 
 </body>
